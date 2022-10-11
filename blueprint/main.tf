@@ -7,7 +7,6 @@ terraform {
       name = "new_user_workspace"
     }
   }
-}
 
   required_providers {
     genesyscloud = {
