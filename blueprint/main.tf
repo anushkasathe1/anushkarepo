@@ -1,6 +1,6 @@
 terraform {
 
-  cloud {
+  backend "remote" {
     organization = "genesys-org"
 
     workspaces {
