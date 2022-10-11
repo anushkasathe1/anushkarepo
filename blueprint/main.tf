@@ -1,12 +1,14 @@
 terraform {
 
-  backend "remote" {
+  terraform {
+  cloud {
     organization = "genesys-org"
 
     workspaces {
-      prefix = "genesys_flows_dev"
+      name = "new_user_workspace"
     }
   }
+}
 
   required_providers {
     genesyscloud = {
