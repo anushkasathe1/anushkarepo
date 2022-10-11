@@ -1,6 +1,5 @@
 terraform {
 
-  terraform {
   cloud {
     organization = "genesys-org"
 
