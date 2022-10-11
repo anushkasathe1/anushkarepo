@@ -4,7 +4,7 @@ runs:
   using: "composite"
   steps:
     - run: |
-        cd $GITHUB_WORKSPACE/main.tf
+        cd $GITHUB_WORKSPACE/blueprint
         terraform init 
         terraform apply --auto-approve
         cd $GITHUB_WORKSPACE
