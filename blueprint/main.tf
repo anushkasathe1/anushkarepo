@@ -22,3 +22,9 @@ provider "genesyscloud" {
   aws_region = "us-east-1"
 }
 
+resource "genesyscloud_flow" "flow" {
+ filepath = "/Users/anushkasathe/projects/deploy-flows-to-genesys-cloud/blueprint/flow.yaml"
+}
+
+
+
