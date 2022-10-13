@@ -23,7 +23,7 @@ provider "genesyscloud" {
 }
 
 resource "genesyscloud_flow" "flow" {
- filepath = "${path.module}/genesys-cloud-architect-flows/callflow.yaml"          
+ filepath = "genesys-cloud-architect-flows/callflow.yaml"          
 }
 
 
