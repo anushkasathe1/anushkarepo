@@ -23,7 +23,7 @@ provider "genesyscloud" {
 }
 
 resource "genesyscloud_flow" "flow" {
- filepath = "/Users/anushkasathe/projects/deploy-flows-to-genesys-cloud/blueprint/flow.yaml"
+ filepath = "deploy-flows-to-genesys-cloud/blueprint/flow.yaml"            
 }
 
 
