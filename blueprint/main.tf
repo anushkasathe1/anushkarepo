@@ -23,6 +23,3 @@ provider "genesyscloud" {
 
 }
 
-resource "genesyscloud_routing_wrapupcode" "win" {
-  name = "Example wrap up code"
-}
