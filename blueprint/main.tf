@@ -17,10 +17,7 @@ terraform {
 
 provider "genesyscloud" {
   sdk_debug = true
-  GENESYSCLOUD_OAUTHCLIENT_ID = secrets.GENESYSCLOUD_OAUTHCLIENT_ID_DEV
-  GENESYSCLOUD_OAUTHCLIENT_SECRET = secrets.GENESYSCLOUD_OAUTHCLIENT_SECRET_DEV
   aws_region = "us-east-1"
-
 }
 
 resource "genesyscloud_routing_wrapupcode" "win" {
