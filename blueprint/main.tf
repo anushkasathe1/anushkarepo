@@ -17,8 +17,8 @@ terraform {
 
 provider "genesyscloud" {
   sdk_debug = true
-  oauthclient_id     = "339f87f2-1ad0-4bc0-a6b7-96f467852143"
-  oauthclient_secret = "Sv7h7CKlI6Yb13qiVh1rV11MOvZ1zULTPniedCw3Vqs"
+  GENESYSCLOUD_OAUTHCLIENT_ID: ${{ secrets.GENESYSCLOUD_OAUTHCLIENT_ID_DEV }}
+  GENESYSCLOUD_OAUTHCLIENT_SECRET: ${{ secrets.GENESYSCLOUD_OAUTHCLIENT_SECRET_DEV }}
   aws_region = "us-east-1"
 
 }
