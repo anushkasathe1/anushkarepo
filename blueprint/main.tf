@@ -17,7 +17,7 @@ terraform {
 
 provider "genesyscloud" {
   sdk_debug = true
-  aws_region = dca
+  aws_region = us-east-1
 }
 
 resource "genesyscloud_routing_wrapupcode" "win" {
