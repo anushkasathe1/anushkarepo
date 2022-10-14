@@ -25,5 +25,6 @@ provider "genesyscloud" {
 
 resource "genesyscloud_flow" "flow" {  
 filepath = "https://bitbucket.org/anushkasathe/automatedflows/src/main/Archy%20Hello%20World_v1-0.yaml"
+}
 
        
