@@ -23,11 +23,8 @@ provider "genesyscloud" {
 }
 
 
-resource "genesyscloud_flow" "flow" {
-  depends_on = [
-    module.genesys-cloud-architect-flows
-  ]  
- filepath = "${path.root}/genesys-cloud-architect-flows/flow.yaml"
+resource "genesyscloud_flow" "flow" {  
+ file("${path.module}/genesys-cloud-architect-flows/flow.yaml")
 }
 
        
