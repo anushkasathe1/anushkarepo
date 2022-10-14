@@ -24,6 +24,6 @@ provider "genesyscloud" {
 
 
 resource "genesyscloud_flow" "flow" {
- filepath = "${path.module}/blueprint/genesys-cloud-architect-flows"
+ filepath = "${path.module}/blueprint/genesys-cloud-architect-flows/flow.yaml"
 }
        
