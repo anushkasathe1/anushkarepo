@@ -4,7 +4,7 @@ runs:
   using: "composite"
   steps:
     - run: |
-        cd $GITHUB_WORKSPACE/blueprint
+        cd $GITHUB_WORKSPACE/genesys-cloud-architect-flows
         terraform init 
         terraform apply --auto-approve
         cd $GITHUB_WORKSPACE
