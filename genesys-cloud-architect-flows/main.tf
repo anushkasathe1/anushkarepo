@@ -24,7 +24,6 @@ provider "genesyscloud" {
 
 
 resource "genesyscloud_flow" "flow" {  
- filepath = "../deploy-flows-to-genesys-cloud/genesys-cloud-architect-flows/flow.yaml.tftpl"
-}
+filepath = "https://bitbucket.org/anushkasathe/automatedflows/src/main/Archy%20Hello%20World_v1-0.yaml"
 
        
