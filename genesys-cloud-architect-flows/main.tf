@@ -24,7 +24,7 @@ provider "genesyscloud" {
 
 
 resource "genesyscloud_flow" "flow" {  
- file("${path.module}/genesys-cloud-architect-flows/flow.yaml")
+ file = "${path.module}/genesys-cloud-architect-flows/flow.yaml"
 }
 
        
