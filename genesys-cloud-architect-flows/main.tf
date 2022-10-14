@@ -27,7 +27,7 @@ resource "genesyscloud_flow" "flow" {
   depends_on = [
     module.genesys-cloud-architect-flows
   ]  
- filepath = "${path.module}/genesys-cloud-architect-flows/flow.yaml"
+ filepath = "${path.root}/genesys-cloud-architect-flows/flow.yaml"
 }
 
        
