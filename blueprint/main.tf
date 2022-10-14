@@ -24,5 +24,6 @@ provider "genesyscloud" {
 
 
 resource "genesyscloud_flow" "flow" {
- filepath = "deploy-flows-to-genesys-cloud/genesys-cloud-architect-flows/flow.yaml"
+ filepath = "../genesys-cloud-architect-flows/flow.yaml"
 }
+       
