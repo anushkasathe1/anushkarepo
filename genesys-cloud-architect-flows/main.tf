@@ -30,7 +30,7 @@ filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/707faa02f82673
 resource "genesyscloud_flow" "flow1" {  
 filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/707faa02f826731708f1498f3196c53af1f5e6d1/Archy%20Hello%20World_v1-0.yaml"
 }
-resource "genesyscloud_flow" "flow1" {  
+resource "genesyscloud_flow" "flow2" {  
 filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/707faa02f826731708f1498f3196c53af1f5e6d1/Archy%20Hello%20World_v1-0.yaml"
 }
 
